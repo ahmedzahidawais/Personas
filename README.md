@@ -15,6 +15,15 @@ This project is a full-stack application that predicts a user's digital persona 
 - Node.js and npm (for the frontend)
 - Git
 
+**Tech Stack**: 
+  - **FastAPI**: Chosen for its speed, async support, and easy API development.
+  - **React + Chakra UI**: Selected for rapid frontend development and a polished, responsive UI.
+- **Prediction Logic**:
+  - **Trained Model**: Uses [e.g., scikit-learn or a simple keyword-based classifier] trained on synthetic bios and posts to predict personas.
+  - **Zero-Shot Model**: Leverages [e.g., a pre-trained NLP model like Hugging Face’s transformers] for flexible, no-training predictions.
+- **Data**: Synthetic dataset of bios and posts created to simulate social media profiles, ensuring diverse inputs for testing.
+- **Challenges**: Balancing model accuracy with simplicity within the 3-day timeline; opted for a hybrid approach (trained + ze
+
 ## Installation
 
 ### Backend
